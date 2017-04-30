@@ -1,0 +1,158 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.wrapper {
+	display: block;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 40px 50px;
+	background-color: white;
+	border: 1px solid #c7c5c4;
+}
+
+/*---HERO-SECTION---*/
+
+.logopic {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+.header ul {
+ 	background-color: #515151;
+}
+
+.header li {
+	display: inline-block;
+	 padding: 0 46px;
+	 line-height: 40px;
+	 height: 40px;
+	 font-weight: lighter;
+	 border: 1px solid #515151;
+	 background-color: transparent;
+	 color: white;
+}
+
+.header li:focus,
+.header li:hover {
+	background-color: #464646;
+	color: white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+}
+
+.hero-section {
+	padding: 50px 0;
+}
+
+/*---CONTENER---*/
+
+.contener {
+	display: block;
+	background-color: white;
+	width: 100%;
+}
+
+.sidebar {
+	float: left;
+	width: 25%;
+}
+
+.sidebar li {
+	line-height: 40px;
+	height: 40px;
+	font-weight: lighter;
+	border-top: 1px solid #c8c8c8;
+  	border-right: 1px solid #c8c8c8;
+  	border-left: 1px solid #c8c8c8;
+	background-color: transparent;
+}
+	
+.sidebar a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	padding: 0 15px;
+	font-weight: lighter;
+	color: #a3a1a1;
+ }
+
+.sidebar a:focus,
+.sidebar a:hover {
+	transform: translate(15px, 0);
+}
+  
+.sidebar ul {
+	background-color: transparent;
+	color: black;
+}
+
+.sidebar ul:last-child {
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.content {
+	float: right;
+	width: 70%;
+}
+
+.content img {
+	border: 1px solid #c7c5c4;
+	padding: 50px 62px;
+}
+
+.content p {
+	padding: 35px 30px;
+}
+
+/*---FOOTER---*/
+
+.footer {
+	clear: both;
+	display: block;
+	padding-top: 35px;
+}
+
+.footer ul {
+	display: block;
+	background-color: #e1e1e1;
+}
+
+.footer li {
+	display: inline-block;
+	padding: 0 46px;
+	line-height: 40px;
+	height: 40px;
+	font-weight: lighter;
+	background-color: transparent;
+	color: black;
+}
+
+.footer a:focus,
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}	
+
+
+
