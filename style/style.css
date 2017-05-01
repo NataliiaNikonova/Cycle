@@ -11,7 +11,7 @@ body {
 
 .wrapper {
 	display: block;
-	width: 100%;
+	/*width: 100%;*/
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 40px 50px;
@@ -25,18 +25,16 @@ body {
 	display: block;
 }
 
-ul {
-	list-style: none;
+ul { list-style: none;
 }
 
 .header ul {
- 	background-color: #515151;
-}
+	background-image: linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+ }
 
 .header li {
 	display: inline-block;
-	 padding: 0 46px;
-	 line-height: 40px;
+	line-height: 40px;
 	 height: 40px;
 	 font-weight: lighter;
 	 border: 1px solid #515151;
@@ -46,15 +44,19 @@ ul {
 
 .header li:focus,
 .header li:hover {
-	background-color: #464646;
+	background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
 	color: white;
 	border-right: 1px solid white;
 	border-left: 1px solid white;
 }
 
 .header a {
+	display: block;
 	color: white;
 	text-decoration: none;
+	padding: 0 46px;
+	 line-height: 40px;
+	 height: 40px;
 }
 
 .hero-section {
@@ -66,12 +68,13 @@ ul {
 .contener {
 	display: block;
 	background-color: white;
-	width: 100%;
 }
 
 .sidebar {
-	float: left;
 	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4%; 
 }
 
 .sidebar li {
@@ -86,16 +89,17 @@ ul {
 	
 .sidebar a {
 	display: block;
-	position: absolute;
 	text-decoration: none;
-	padding: 0 15px;
+	padding: 0px;
 	font-weight: lighter;
 	color: #a3a1a1;
+	text-indent: 25px;
  }
 
 .sidebar a:focus,
 .sidebar a:hover {
-	transform: translate(15px, 0);
+	text-indent: 50px;
+	background: #f9f9f9;
 }
   
 .sidebar ul {
@@ -108,13 +112,15 @@ ul {
 }
 
 .content {
-	float: right;
 	width: 70%;
+	display: inline-block;
+	margin-right: 0px; 
 }
 
 .content img {
 	border: 1px solid #c7c5c4;
-	padding: 50px 62px;
+	padding: 10%;
+	width: 80%;
 }
 
 .content p {
@@ -153,6 +159,4 @@ ul {
 	text-decoration: none;
 	color: black;
 }	
-
-
 
